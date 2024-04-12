@@ -54,6 +54,8 @@ function App() {
     <div className="bg-yellow-300 mx-auto "> <p className="font-semibold">Tech Stack </p>
     <p> Use State hook , event handling , and math library</p>
    <p>GIT URL -   <a href="https://github.com/VinodWaghPune/calculator" target="_blank" rel="noopener noreferrer">https://github.com/VinodWaghPune/calculator</a>  </p> 
+    
+    <p> <a href="https://simple-reactjsx-calculator.netlify.app/">https://simple-reactjsx-calculator.netlify.app/</a></p>
     </div>
 
 
