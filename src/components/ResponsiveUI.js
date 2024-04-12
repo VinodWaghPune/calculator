@@ -8,12 +8,12 @@ const ResponsiveUI = () => {
   };
 
   const calculateResult = () => {
-    try {
-      const result = eval(expression);
-      setExpression(result.toString());
-    } catch (error) {
-      setExpression("Error");
-    }
+    // try {
+    //   const result = eval(expression);
+    //   setExpression(result.toString());
+    // } catch (error) {
+    //   setExpression("Error");
+    // }
   };
 
   const clearExpression = () => {
@@ -31,7 +31,7 @@ const ResponsiveUI = () => {
           AC
         </button>
         <button
-          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 rounded text-4xl"
+          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 rounded s"
           onClick={() => handleButtonClick("/")}
         >
           /

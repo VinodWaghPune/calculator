@@ -1,14 +1,14 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import Displayscreen from "./components/Displayscreen";
 import Button from "./components/Button";
-import { createContext, useState } from "react";
+import {  useState } from "react";
 import { CalculatorContext } from "./CalculatorContext";
 import ResponsiveUI from "./components/ResponsiveUI";
 
 function App() {
   const [displayText, setDisplayText] = useState("0");
-  const [flag,setFlag] = useState(true);
+  const flag = true;
 
   const updateDisplay=(val)=>{
 
@@ -51,8 +51,10 @@ function App() {
       </div>
       </CalculatorContext.Provider>
       
-    <div className="bg-yellow-300 mx-auto w-48"> <p className="font-semibold">Tech Stack </p>
-    <p> Use State hook , event handling , and math library</p></div>
+    <div className="bg-yellow-300 mx-auto "> <p className="font-semibold">Tech Stack </p>
+    <p> Use State hook , event handling , and math library</p>
+   <p>GIT URL -   <a href="https://github.com/VinodWaghPune/calculator" target="_blank" rel="noopener noreferrer">https://github.com/VinodWaghPune/calculator</a>  </p> 
+    </div>
 
 
     </div>):
